@@ -1,0 +1,4 @@
+#!/bin/sh
+
+npm install -g web-ext
+web-ext build --ignore-files temp --overwrite-dest
