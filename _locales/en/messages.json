@@ -1,0 +1,12 @@
+{
+  "extensionName": {
+    "message": "kp2md",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "This extension provides a functionality to export Google Keep itemized notes as a markdown file.",
+    "description": "Description of the add-on."
+  }
+
+}
