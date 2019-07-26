@@ -1,6 +1,6 @@
 # kp2md
-Unofficial Firefox extension.
-This extension provides a functionality to export Google Keep itemized notes as a markdown file.
+Firefox extension.
+This extension provides an unofficial functionality to export Google Keep itemized notes as a markdown file.
 
 ## How
 
@@ -13,4 +13,8 @@ This extension provides a functionality to export Google Keep itemized notes as 
 - click the icon (browser action button) of this extension.
 
 ![./icons/kp2md-48.png](./icons/kp2md-48.png)
+
+## Chrome
+
+https://chrome.google.com/webstore/detail/mghcjobdhnpfemplfkeheflheelckiok
 
