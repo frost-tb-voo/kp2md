@@ -19,17 +19,30 @@
   },
 
   "page_action": {
-    "default_icon": "icons/kp2md-24.png",
-    "default_title": "kp2md",
+    "default_icon": {
+      "16": "./icons/kp2md-16.png",
+      "24": "./icons/kp2md-24.png",
+      "32": "./icons/kp2md-32.png",
+      "48": "./icons/kp2md-48.png",
+      "64": "./icons/kp2md-64.png",
+      "128": "./icons/kp2md-128.png"
+    },
+    "default_title": "__MSG_extensionName__",
     "browser_style": true
   },
   
   "browser_action": {
-    "default_icon": "icons/kp2md-24.png",
-    "default_title": "kp2md",
+    "default_icon": {
+      "16": "./icons/kp2md-16.png",
+      "24": "./icons/kp2md-24.png",
+      "32": "./icons/kp2md-32.png",
+      "48": "./icons/kp2md-48.png",
+      "64": "./icons/kp2md-64.png",
+      "128": "./icons/kp2md-128.png"
+    },
+    "default_title": "__MSG_extensionName__",
     "browser_style": true
   },
-
 
   "permissions": [
     "https://keep.google.com/",
