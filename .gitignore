@@ -62,4 +62,6 @@ typings/
 
 # This project
 temp
+web-ext-artifacts
+*.zip
 
