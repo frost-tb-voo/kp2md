@@ -87,10 +87,8 @@ function downloadsDownload(query) {
 }
 
 function updatePageAction(tab) {
-  // console.log('initializePageAction ' + tab.id)
   let url = new URL(tab.url);
   if (!url.hostname.endsWith('keep.google.com')) {
-    // console.log('Skip ' + url.hostname)
     return;
   }
   tabsExecuteScript(tab.id, {
@@ -107,4 +105,19 @@ if (chrome.browserAction && chrome.browserAction.onClicked) {
   chrome.browserAction.onClicked.addListener(updatePageAction);
 } else {
   console.warn('chrome.browserAction.onClicked unsupported!');
+}
+
+function initializePageAction(tab) {
+  if (chrome.pageAction && chrome.pageAction.show) {
+    chrome.pageAction.show(tab.id);
+  }
+}
+
+if (chrome.tabs && chrome.tabs.onUpdated) {
+  chrome.tabs.onUpdated.addListener((id, changeInfo, tab) => {
+    // for chrome only, enable page action for each tab
+    initializePageAction(tab);
+  });
+} else {
+  console.warn('chrome.tabs.onUpdated unsupported!');
 }
