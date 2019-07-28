@@ -14,7 +14,9 @@ This extension provides an unofficial functionality to export Google Keep itemiz
 
 ![./icons/kp2md-48.png](./icons/kp2md-48.png)
 
-## Chrome
+## Installation for Firefox
+https://addons.mozilla.org/ja/firefox/addon/kp2md/
 
+## Installation for Chrome
 https://chrome.google.com/webstore/detail/mghcjobdhnpfemplfkeheflheelckiok
 
