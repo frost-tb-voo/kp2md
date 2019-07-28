@@ -10,6 +10,7 @@ TEMP_DIR=${DIR}/temp/firefox
 cd ${DIR}
 mkdir -p ${TEMP_DIR}
 cp -r icons ${TEMP_DIR}/
+rm ${TEMP_DIR}/icons/*.bmp
 cp -r _locales ${TEMP_DIR}/
 cp *.js ${TEMP_DIR}/
 cp LICENSE ${TEMP_DIR}/
@@ -24,6 +25,7 @@ TEMP_DIR=${DIR}/temp/chrome
 cd ${DIR}
 mkdir -p ${TEMP_DIR}
 cp -r icons ${TEMP_DIR}/
+rm ${TEMP_DIR}/icons/*.bmp
 cp -r _locales ${TEMP_DIR}/
 cp *.js ${TEMP_DIR}/
 cp LICENSE ${TEMP_DIR}/
